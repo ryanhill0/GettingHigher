@@ -10,7 +10,6 @@ public class PlayButton : MonoBehaviour
     [SerializeField] GameObject GameTitle;
     [SerializeField] GameObject Play_Button;
     //[SerializeField] GameObject GameManager;
-    // Start is called before the first frame update
     public void OnButtonClick()
     {
         GameTitle.SetActive(false);
